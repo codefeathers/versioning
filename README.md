@@ -2,7 +2,7 @@
 
 `codever` is CodeFeathers's versioning system. Answer to debates about whether or not another standard is required: [Standards](https://xkcd.com/927). It's okay to have just one more.
 
-> Node: To facilitate your program working with other programs, it's necessary to be compatible with [semver](https://semver.org). But since this is a restriction, I've decided to have an internal version number and external version number. CodeFeathers projects must always have an internal `codever` number, and if any use in external applications is anticipated, an external `semver` version number can also used when a release is created, thereby removing the ugly `-b0.8.2` qualifiers.
+> Note: To facilitate your program working with other programs, it's necessary to be compatible with [semver](https://semver.org). But since this is a restriction, I've decided to have an internal version number and external version number. CodeFeathers projects must always have an internal `codever` number, and if any use in external applications is anticipated, an external `semver` version number can also used when a release is created, thereby removing the ugly `-b0.8.2` qualifiers.
 
 ## Format
 
